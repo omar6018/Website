@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div id="about">
+        <div class="about-container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="imgs/me.png">
+                </div>
+                <div class="about-col-1">
+                    <h1 class="sub-title">About me</h1>
+                    <p>
+                        I am just a chill guy who wants to make websites
+                        for fun<br> and to be a cool UI/UX Designer.
+                    </p>
+    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+    
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                UI/UX
+                                <span><br>Designing web interfaces</span>
+                            </li>
+                            <li>
+                                Web Dev
+                                <span><br>Developing Web Applications</span>
+                            </li>
+                            <li>
+                                App Dev
+                                <span><br>Building Android/IOS Applications</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                SAIB BANK - 2019
+                                <span><br>IT agent trainee</span>
+                            </li>
+                            <li>
+                                Vodafone UK - 2020
+                                <span><br>Tech support agent</span>
+                            </li>
+                            <li>
+                                DIS - 2024
+                                <span><br>IT, Computer teacher</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                Software Engineering
+                                <span><br>Cairo University 2018-2022</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="functions.js"></script> 
+</body>
+
+</html>

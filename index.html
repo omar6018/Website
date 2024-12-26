@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cb0952510b.js" crossorigin="anonymous"></script>
+    <script src="fucntions.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="imgs/Logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="About.html" onclick="">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()" ></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()" ></i>
+            </nav>
+            <div class="header-text">
+                
+                <h1>
+                    Hi, I'm <span>Omar </span>Hidar
+                </h1>
+                <p>A software engineering graduate aspiring to be a UI/UX Designer</p>
+            </div>
+        </div>
+
+    </div>
+
+<!--------------------Services----------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Passionate about designing interactive 
+                    attractive websites and web applications!</p>
+                     <a href="">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>My goal is to design minimal good looking user friendly interfaces that appeal 
+                    to the users with maximum efficiency and stability</p>
+                     <a href="">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>As a software engineer I like designing applications that help solving
+                     problems that might arise with the normal everyday person </p>
+                     <a href="">Learn more</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div id="portfolio">
+    <div class="container"> 
+        <h1 class="sub-title">My Work</h1> 
+        <div class="work-list"> 
+            <div class="work">
+                <img src="imgs/web-mock1.png">
+                <div class="layer">
+                    <h3>Game Website Mockup design</h3>
+                    <a href="https://www.upwork.com/freelancers/~017656ca18c8a87af5" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                
+            </div>
+            <div class="work">
+                <img src="imgs/web-mock2.png">
+                <div class="layer">
+                    <h3>Mortal Kombat Website Mockup design</h3>
+                    <a href="https://www.upwork.com/freelancers/~017656ca18c8a87af5" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+
+    </div>
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> omartarekesmat@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 77418054</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/omar.tarek.31105" class="Fac" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/omar_tarek697/" class="Ins" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/omar-tarek-9879941b9/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/omar6018" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="imgs/OmarNeWCV.pdf" download class="btn btn2">Download CV</a>
+                    
+
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea rows ="6" placeholder="Message" required></textarea>
+                        <button type="submit" value="Send" class = "btn btn2">submit</button>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+</body>
+</html>
